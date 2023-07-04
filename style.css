@@ -1,5 +1,8 @@
 body{
     background-color: rgb(214, 212, 216);
+    margin: 0;
+    padding: 0;
+    
 }
 .grid-container{
     display: grid;
@@ -14,13 +17,13 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 20%;
     margin-bottom: 0px;
 }
 
 .name p{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 0%;
 }
 .profile-picture{
@@ -36,26 +39,27 @@ h1{
 }
 
 .icons{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
 }
 
 .pp{
     background-color: #3E065F;
-    height: 300px;
-    width: 300px;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+    height: 370px;
+    width: 370px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 .ip{
     background-color: #700B97;
-    height: 280px;
-    width: 280px;
+    height: 350px;
+    width: 350px;
     border-radius: 30% 70% 60% 40% / 80% 50% 70% 40%
 }
 
 #photo{
-    height: 230px;
-    width: 230px;
+    height: 350px;
+    width: 350px;
 }
 
 .icons img{
@@ -63,8 +67,8 @@ h1{
 }
 
 .icons img:hover{
-    height: 69px;
-    width: 69px;
+    height: 80px;
+    width: 80px;
 }
 
 footer{
@@ -129,9 +133,17 @@ footer{
     }
 
     #photo{
-        height: 200px;
-        width: 200px;
+        height: 230px;
+        width: 230px;
     }
 
+    .icons{
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
 
+    footer{
+        margin-top: 60px;
+    }
 }
