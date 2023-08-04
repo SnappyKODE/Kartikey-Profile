@@ -4,10 +4,20 @@
   text-align: center;
 }
 
+.container2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.refresh{
+  border-radius: 10px;
+  background-color: #4ECCA3;
+}
+
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -18,7 +28,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
 }
 
