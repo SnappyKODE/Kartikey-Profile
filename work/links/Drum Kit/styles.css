@@ -79,3 +79,30 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+
+  h1 {
+    font-size: 3.3rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 2px 0 #DA0463;
+  
+  }
+
+  .drum {
+    outline: none;
+    border: 8px solid #404B69;
+    font-size: 0;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+}

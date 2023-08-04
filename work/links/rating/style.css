@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+
+p{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.ratingPage{
+    color: hsl(0, 0%, 100%);
+    background: radial-gradient(at top, hsl(213, 19%, 22%), hsl(219, 19%, 14%));
+    width: 350px;
+    height: 320px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.thankPage{
+    color: hsl(0, 0%, 100%);
+    background: radial-gradient(at top, hsl(213, 19%, 22%), hsl(219, 19%, 14%));
+    width: 350px;
+    height: 320px;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rate{
+    background-color: hsl(214, 21%, 21%);;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 0px;
+    color: hsl(217, 12%, 63%); 
+    font-family: 'Overpass', sans-serif;
+    cursor: pointer;
+}
+
+.select{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.rate-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#star{
+
+    background-color: hsl(214, 21%, 21%);;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%); 
+    font-weight: bold;
+}
