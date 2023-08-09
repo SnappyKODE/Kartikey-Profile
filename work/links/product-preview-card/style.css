@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+h2{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h6{
+    margin: 0;
+    font-weight: lighter;
+}
+
+
+.container{
+    display: grid;
+    height: auto;
+    width: 38%;
+    background-color: hsl(0, 0%, 100%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    margin: 0;
+    border-radius: 3%;
+}
+
+.product_image{
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+    border-radius: 3% 0 0 3%;
+}
+
+.product_info{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    display: inline;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#cart{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: 0;
+    border-radius: 5%;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#cart:focus{
+    background-color:  hsl(158, 37%, 28%);
+}
+
+#cart:hover{
+    background-color:  hsl(158, 37%, 28%);
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: hsl(30, 38%, 92%);
+    }
+    h2{
+        font-family: 'Fraunces', serif;
+        color: hsl(212, 21%, 14%);
+    }
+    
+    p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    h6{
+        margin: 0;
+        font-weight: lighter;
+    }
+    
+    
+    .container{
+        display: grid;
+        height: auto;
+        width: 85%;
+        background-color: hsl(0, 0%, 100%);
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 1fr 1.5fr;
+        margin: 0;
+        border-radius: 3%;
+    }
+    
+    .product_image{
+        background-image: url("./images/image-product-mobile.jpg");
+        background-size: cover;
+        border-radius: 3% 3% 0 0;
+    }
+    
+    .product_info{
+        font-family: 'Montserrat', sans-serif;
+        padding: 15px;
+        color: hsl(228, 12%, 48%);
+        font-size: 16px;
+    }
+    
+    .price{
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%);
+        display: inline;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    #cart{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border: 0;
+        border-radius: 5%;
+        text-align: center;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 25px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+}

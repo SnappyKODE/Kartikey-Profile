@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.button{
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
